@@ -1,4 +1,56 @@
 :root {
     --color1: #787878;
     --color2: #1ecbc6;
+    --color3: #000;
+    --color4: #fff;
+    --bgColor5: #e9e9e9;
+}
+body {
+    font-size: 14px;
+    font-family: Avram Sans;
+}
+.menu {
+    padding-top: 45px;
+    padding-bottom: 90px;
+    background-color: var(--bgColor5);
+}
+.menu__item {
+    margin-left: 30px;
+    list-style-type: none;
+}
+.menu__item a {
+    text-decoration: none;
+    color: var(--color3);  
+    transition: all 200ms ease-in-out;
+}
+.menu__item a:hover {
+    color: var(--color2);
+}
+.menu__item-active a{
+    color: var(--color2);
+}
+.menu__text {
+    margin-top: 130px;
+}
+.menu__text-title {
+    margin-bottom: 20px;
+}
+.menu__text-p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color1);
+    font-weight: 400;
+    max-width: 490px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+.menu__text-btn {
+    padding: 14px 45px;
+    background-color: var(--color2);
+    color: var(--color4);
+    border-radius: 0;
+    font-size: 12px;
+    transition: all 200ms ease-in-out;
+}
+.menu__text-btn:hover {
+    color: var(--color3);
 }
