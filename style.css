@@ -151,12 +151,13 @@ body {
 .info {
     background-color: var(--color2);
     height: 240px;
+    padding: 0 100px;
 }
 .info__block {
     color: var(--color4);
 }
 .info__icon {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 /* 
 =======================================================================
