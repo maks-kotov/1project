@@ -14,6 +14,10 @@ body {
     font-size: 14px;
     font-family: Avram Sans;
 }
+ul {
+    margin: 0;
+    padding: 0;
+}
 .row {
     --bs-gutter-x: 0;
 }
@@ -247,10 +251,12 @@ body {
     background-color: var(--bgColor5);
 }
 .work__padding {
-    padding: 50px 60px;
+    padding: 80px 60px 40px 60px;
 }
 .work__block {
     text-align: center;
+}
+.work__block {
     margin-bottom: 30px;
 }
 .work__img {
@@ -268,6 +274,35 @@ body {
 /* 
 =======================================================================
 ==================work-end=============================================
+=======================================================================
+*/
+/* 
+=======================================================================
+==================out=============================================
+=======================================================================
+*/
+
+.out__bg {
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color4);
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+.out__quote {
+    width: 615px;
+    margin-bottom: 30px;
+}
+.out__quote-name {
+    margin-bottom: 100px;
+}
+
+/* 
+=======================================================================
+==================out-end=============================================
 =======================================================================
 */
 
