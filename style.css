@@ -299,6 +299,19 @@ ul {
 .out__quote-name {
     margin-bottom: 100px;
 }
+.out__pagination {
+    list-style-type: none;
+}
+.out__pagination .out__active {
+    height: 10px;
+    width: 10px;
+}
+.out__page-item {
+    height: 6px;
+    width: 6px;
+    background-color: var(--color4);
+    border-radius: 50%;
+}
 
 /* 
 =======================================================================
