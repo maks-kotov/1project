@@ -18,6 +18,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+textarea {
+    resize: none;
+}
 .row {
     --bs-gutter-x: 0;
 }
@@ -173,6 +176,13 @@ ul {
 .info__icon {
     margin-right: 20px;
 }
+.info__number {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.info__text {
+font-size: 12px;
+}
 /* 
 =======================================================================
 ==================info-end=============================================
@@ -197,7 +207,7 @@ ul {
 }
 .squares__show-more {
     height: 100px;
-    background-color: var(--bgColor5);
+    background-color: var(--bgColor6);
     
 }
 .squares__show-more a {
@@ -223,6 +233,7 @@ ul {
     width: 465px;
     margin-bottom: 30px;
     font-family: 'Roboto';
+    line-height: 1.7;
 }
 .work__video-bg {
     height: 550px;
@@ -296,9 +307,13 @@ ul {
 .out__quote {
     width: 615px;
     margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 20px;
 }
 .out__quote-name {
     margin-bottom: 100px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
 }
 .out__pagination {
     list-style-type: none;
@@ -306,12 +321,14 @@ ul {
 .out__pagination .out__active {
     height: 10px;
     width: 10px;
+    opacity: 1;
 }
 .out__page-item {
     height: 6px;
     width: 6px;
     background-color: var(--color4);
     border-radius: 50%;
+    opacity: .5;
 }
 /* 
 =======================================================================
@@ -355,7 +372,7 @@ ul {
     line-height: 1.7;
 }
 .anketa__form {
-    width: 666px;
+    width: 675px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 3fr;
@@ -378,11 +395,12 @@ ul {
 
 }
 .anketa__btn {
-    padding: 18px 35px;
+    padding: 14px 35px;
     background-color: var(--color2);
     color: var(--color4);
     border-radius: 0;
     transition: all 200ms ease-in-out;
+    font-size: 14px;
 }
 .anketa__btn:hover {
     color: var(--color8);
