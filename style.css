@@ -168,10 +168,13 @@ textarea {
 .info {
     background-color: var(--color2);
     height: 240px;
-    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .info__block {
     color: var(--color4);
+    margin: 0 auto;
 }
 .info__icon {
     margin-right: 20px;
@@ -181,7 +184,7 @@ textarea {
     font-size: 16px;
 }
 .info__text {
-font-size: 12px;
+    font-size: 12px;
 }
 /* 
 =======================================================================
@@ -484,9 +487,25 @@ font-size: 12px;
         text-align: center;
     }
 }
+@media(max-width: 767px) {
+    .info {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .info__heart {
+    }
+}
 @media(max-width: 575px) {
     .about__text {
         width: auto;
+    }
+    .info {
+        /* display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr; */
     }
 }
 /* 
