@@ -117,17 +117,16 @@ textarea {
     margin-bottom: 20px;
     color: var(--color8);
 }
-.about__text-block {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 .about__text {
     font-family: 'Roboto', sans-serif;
     color: var(--color1);
     font-weight: 400;
     line-height: 1.7;
     width: 525px;   
+    margin: 0;
+}
+.about__sign {
+    margin-top: 20px;
 }
 /* 
 =======================================================================
@@ -483,6 +482,11 @@ font-size: 12px;
         margin-right: 0px;
         margin-top: 75px;
         text-align: center;
+    }
+}
+@media(max-width: 575px) {
+    .about__text {
+        width: auto;
     }
 }
 /* 
