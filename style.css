@@ -74,7 +74,8 @@ textarea {
     color: var(--color2);
 }
 .menu__text {
-    margin-top: 130px;
+    margin-top: 135px;
+    margin-right: 100px;
 }
 .menu__text-title {
     margin-bottom: 20px;
@@ -477,6 +478,11 @@ font-size: 12px;
         padding-bottom: 10px;
         transition: all 500ms ease-in-out;
         letter-spacing: 2px;
+    }
+    .menu__text {
+        margin-right: 0px;
+        margin-top: 75px;
+        text-align: center;
     }
 }
 /* 
