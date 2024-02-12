@@ -470,6 +470,13 @@ textarea {
 ==================media query=============================================
 =======================================================================
 */
+@media(max-width: 1199px) {
+    .squares__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px;
+    }
+}
 @media(max-width: 991px) {
     .menu__list {
         border: 1px solid var(--color8);
@@ -486,6 +493,7 @@ textarea {
         margin-top: 75px;
         text-align: center;
     }
+    
 }
 @media(max-width: 767px) {
     .info {
@@ -506,6 +514,11 @@ textarea {
         align-items: center;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr; */
+    }
+    .squares__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px;
     }
 }
 /* 
