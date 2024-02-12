@@ -54,12 +54,10 @@ textarea {
 */
 
 .menu {
-    /* padding-top: 45px; */
     padding-bottom: 90px;
     background-color: var(--bgColor5);
 }
 .menu__item {
-    /* margin-left: 30px; */
     list-style-type: none;
 }
 .menu__item a {
