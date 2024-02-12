@@ -288,6 +288,15 @@ textarea {
 .work__block-subtitle {
     margin-bottom: 10px;
 }
+.work__block-subtitle a {
+    text-decoration: none;
+    color: var(--color3);
+    transition: all 200ms ease-in-out;
+}
+.work__block-subtitle a:hover {
+    color: var(--color2);
+}
+
 .work__block-text {
     font-family: 'Roboto', sans-serif;
     color: var(--color1);
