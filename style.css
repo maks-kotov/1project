@@ -266,7 +266,10 @@ textarea {
     background-color: var(--bgColor6);
 }
 .work__padding {
-    padding: 80px 60px 40px 60px;
+    padding: 100px 100px 70px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .work__block {
     text-align: center;
@@ -493,7 +496,11 @@ textarea {
         margin-top: 75px;
         text-align: center;
     }
-    
+    .work__padding {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
 }
 @media(max-width: 767px) {
     .info {
@@ -509,16 +516,15 @@ textarea {
     .about__text {
         width: auto;
     }
-    .info {
-        /* display: grid;
-        align-items: center;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr; */
-    }
     .squares__grid {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 300px 300px 300px;
+    }
+    .work__padding {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
 /* 
