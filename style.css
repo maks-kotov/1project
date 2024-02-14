@@ -21,6 +21,12 @@ ul {
 textarea {
     resize: none;
 }
+.modal {
+    font-family: Roboto;
+}
+.modal-video {
+    width: 100%;
+}
 .row {
     --bs-gutter-x: 0;
 }
