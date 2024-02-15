@@ -427,10 +427,13 @@ textarea {
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 6;
-
+}
+.anketa__text {
+    margin-bottom: 40px;   
 }
 .anketa__btn {
-    padding: 14px 35px;
+    padding: 14px 0;
+    width: 175px;
     background-color: var(--color2);
     color: var(--color4);
     border-radius: 0;
@@ -473,8 +476,13 @@ textarea {
 }
 .footer__link {
     color: var(--color4);
+    opacity: .7;
     text-decoration: none;
     transition: all 200ms ease-in-out;
+}
+.footer__p {
+    color: var(--color4);
+    opacity: .7;    
 }
 .footer__link:hover {
     color: var(--color2);
