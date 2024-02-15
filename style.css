@@ -575,6 +575,11 @@ textarea {
     .footer__text-2 {
         margin-right: 0;
     } 
+    .cube {
+        display: grid;
+        grid-template-columns: 1fr;  
+        grid-template-rows: repeat(12, 300px);
+    }
 }
 @media(max-width: 767px) {
     .info {
