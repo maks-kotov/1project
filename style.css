@@ -646,6 +646,16 @@ textarea {
         grid-template-columns: 1fr;  
         grid-template-rows: repeat(12, 300px);
     }
+    .menu__text-2 {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .menu__text-pAbout {
+        width: auto;
+    }
 }
 @media(max-width: 767px) {
     .info {
@@ -740,6 +750,10 @@ textarea {
     .anketa__text {
         max-width: 100%;
     }
+    .woods__text {
+        width: auto;
+    }
+    
 }
 @media(max-width: 370px) {
     .footer__dop {
