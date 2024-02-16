@@ -605,6 +605,40 @@ textarea {
 =======================================================================
 */
 
+/* ====================================================================
+==================страница4 (contact)====================================
+=======================================================================
+*/
+    .contact__bg {
+        background-color: var(--bgColor6);
+        padding: 100px 0;
+    }
+    .contact__text {
+        font-family: 'Roboto', sans-serif;
+        color: var(--color1);
+        font-weight: 400;
+        width: 315px;
+        line-height: 1.7;
+    }
+    .contact__text-bold {
+        color: var(--color3);
+    }
+    .gray__item {
+        background-color: #e0e0e0;
+        height: 470px;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    .gray__img-block {
+        position: absolute;
+        right: 42%;
+        top: 50%;
+    }
+/* ====================================================================
+==================страница4 (contact) end====================================
+=======================================================================
+*/
+
 /* 
 =======================================================================
 ==================media query=============================================
@@ -654,6 +688,13 @@ textarea {
         text-align: center;
     }
     .menu__text-pAbout {
+        width: auto;
+    }
+    .contact__block-1 {
+        width: auto;
+        text-align: center;
+    }
+    .contact__text {
         width: auto;
     }
 }
